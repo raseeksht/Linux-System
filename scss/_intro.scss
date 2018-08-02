@@ -1,0 +1,37 @@
+#intro h2{
+	position: relative;
+	margin-bottom: 30px;
+}
+
+#intro{
+	padding-top: 30px;
+}
+.col-md-4 i{
+	font-size: 40px;
+	padding-top: 40px;
+	color: var(--primary);
+}
+#about1 .container{
+	background-color:var(--primary);
+	color: #fff
+}
+.fff{
+	color: #fff;
+}
+#about1 .container .row .col-md-4{
+	border-right: 2px solid #fff;
+	padding-left: 30px;
+}
+.color-circle{
+	background-color: var(--primary);
+	border-radius: 50%;
+	height:40px;
+	width:40px;
+	position: relative;
+}
+.color-circle i{
+	position: absolute;
+	left: 45%;
+	top: 37%;
+	color:#fff; 
+}

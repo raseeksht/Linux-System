@@ -1,0 +1,108 @@
+.zpadd{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.os-shadow{
+	box-shadow: 2px 5px 5px #ccc;
+}
+.os-shadow:hover{
+	box-shadow: 2px 5px 5px #808389;
+	transition: 0.5s;
+}
+
+.redirect{
+	text-align: center;
+}
+
+.no-padd{
+	padding: 0px;
+	overflow: hidden;
+	border: 1px solid #fff;
+	position: relative;
+}
+
+.no-padd:hover{
+	display: block; 
+	color: #fff;
+	height:100%;
+	width: 110%;
+}
+.col-md-10 h3{
+	margin-top: 0px;
+}
+#downloads{
+	background-color: #eeeeee;
+	padding-top:30px; 
+}
+.black{
+	background:url('../img/contact-bg.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	padding: 50px;
+	margin-top: 0px;
+	box-sizing: border-box;
+}.black p{
+	color: #fff;
+}
+.help{
+	font-size: 20px;
+	color:#0ff;
+
+}
+.help:hover{
+	color: #fff;
+	transition: 0.3s;
+}
+@font-face {
+    font-family: segoe;
+    src: url('../fonts/segoe.woff');
+}
+
+
+svg {
+    display: block;
+    font-size: 8.5em;
+    font-family:'segoe';
+    width: 90%;
+    height: 35%;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+    stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}

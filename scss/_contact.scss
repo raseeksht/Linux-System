@@ -1,0 +1,193 @@
+.f325c6a{
+	background-color: #325c6a;
+	margin-top: 50px;
+	color: #fff;
+	padding: 40px;
+	border-bottom: 1px solid #4b707c;
+}
+.col-md-8 input{
+	width: 100%;
+	margin:10px;
+	height:45px;
+	padding-left: 15px;
+}
+
+textarea{
+	height:200px;
+	width: 100%;
+	margin-left: 10px;
+	padding: 15px;
+
+}
+.msg{
+	margin-left:10px;
+	border-radius: 0px;
+	color:#fff;
+	font-size: 16px; 
+}
+.padd p{
+	padding: 20px 0px;
+	
+}
+.f325c6a p{
+	color: #fff;
+}
+.f325c6a a{
+	color: #fff;
+}
+.footer{
+	color:#fff;
+	background-color: #325c6a;
+	padding: 30px;
+	font-size: 16px;
+}
+#contact{
+	padding-top: 20px;
+	background-color: #eeeeee;
+} 
+#contact a{
+	font-size: 16px;
+}
+#contact input,#contact textarea{
+	border:0px;
+}
+.member{
+	margin-bottom:20px;
+}
+.member{
+	width: 100%;
+	height:50px;
+	padding:15px;
+}
+.mess{
+	border-right: 2px dotted blue;
+}
+
+
+.lang{
+	list-style: none;
+	padding-left: 0px;
+
+}
+.footer a{
+	color:#16b8b6;
+	font-size: 16px;
+}
+
+
+input:focus,textarea:focus{
+	box-shadow: 0px 0px 3px #66afe9;
+	border: 1px solid #66afe9;
+}
+.ser{
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	margin:auto;
+}
+.need-bg{
+	background: url('../img/bg-mem.png');
+	background-size: center;
+	color:#fff;
+}
+.need-bg input{
+	border-radius: 20px;
+	padding:8px; 
+	background:unset;
+	border:1px solid #fff !important;
+}
+.need-bg p, .need-bg a{
+	font-size: 12px !important;
+	color:#ccc;
+	padding-top: 10px;
+}
+.need-bg a{
+	text-decoration: underline;
+}
+.white-close{
+	background:#fff !important;
+	border-radius:50%;
+}
+
+.this-is-login-name{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap:1%;
+}
+.date{
+	padding-bottom: 10px;
+	color:#000;
+}
+.name,.requires-full{
+	width: 100%;
+	margin: 5px 0px;
+}
+.s-radio{
+	float: left;
+}
+.radio-female{
+	margin-left: 25px;
+}
+.reveal{
+	position: relative;
+	clear: both;
+}
+.eye{
+	position: absolute;
+	top:15px;
+	right:10px;
+	height: 20px;
+	width: 20px;
+}
+.member-register{
+	border: 2px solid steelblue;
+	background: #2e7680;
+	width: 100%;
+	height: 30px;
+	color: #fff;
+	padding: 0px!important;
+	border-radius: 30px;
+}
+.avtar-img,.need-bg input{
+	border:2px solid #fff;
+
+}
+
+
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+
+    padding: 0;
+    border: 0;
+
+}
+#contact input, #contact textarea {
+
+    border: 0px;
+
+}
+.checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"], .radio input[type="radio"], .radio-inline input[type="radio"] {
+
+    position: unset;
+    margin-top: unset;
+    margin-left: unset;
+
+}
+.register-garne-button{
+	background-color: rgba(25,150,150,0.3);
+	text-decoration: underline;
+}
+.em-4-u,.em-4-u-s{
+	border:1px solid red !important;
+	border-radius: 30px;
+	margin-top:10px;
+}
+.lang-cont{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+@media (max-width: 512px){
+	.lang-cont{
+		grid-template-columns: auto;
+	}
+}
